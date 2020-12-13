@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>네트워크관리사</title>
+    <link rel="stylesheet" href="yerin.css">
+    <script src="yerin.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <button onclick="location.href='index.html'" id="logo">네트워크관리사 내용정리 페이지</button>
+
+        <a id="mar">.</a>
+        <!--메뉴 바 오른쪽의 여백 조정용-->
+        <div class="menu" onclick="location.href='2605김예린_3.html'">
+            <button class="menubtn">실기 연습 문제 </button>
+        </div>
+        <div class="menu" onclick="location.href='2605김예린_2.html'">
+            <button class="menubtn">실기 내용 요약 </button>
+        </div>
+        <div class="menu" onclick="location.href='2605김예린_1.html'">
+            <button class="menubtn">필기 내용 요약 </button>
+        </div>
+    </div>
+
+    <div class="contents">
+        <p>1. 윈도우의 ipconfig 명령어와 같이 리눅스에서 ip address 정보를 확인하는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_01')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_01">ifconfig</span><br><br>
+
+        <p>2. 리눅스에서 파일이나 폴더를 찾을 때 사용하는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_02')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_02">find</span><br><br>
+
+        <p>3. 리눅스에서 현재설치된 하드디스크 용량을 확인하는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_03')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_03">df</span><br><br>
+
+        <p>4. 리눅스에서 현재위치를 확인하고싶을 때 사용 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_04')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_04">pwd</span><br><br>
+
+        <p>5. 리눅스에서 도움말-메뉴얼을 확인하거나 특정 명령어에 대한 설명을 보는 것은?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_05')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_05">man</span><br><br>
+
+        <p>6. 리눅스에서 포트/프로토콜 정보를 확인할 수 있는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_06')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_06">etc/services</span><br><br>
+
+        <p>7. 리눅스에서 CPU메모리 사용정보를 확인하는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_07')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_07">top</span><br><br>
+
+        <p>8. 리눅스에서 사용자에 대한 특정한 파일을 찾고자 할 때 사용하는 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_08')">
+            <span class="slider"></span>
+        </label>
+        <span class="answer" id="3_08">find</span><br><br>
+
+        <p>9. 리눅스 이동 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_09')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_09">pwd</span><br><br>
+
+        <p>10. 리눅스 파일타입확인 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_10')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_10">file</span><br><br>
+
+        <p>11. 리눅스 복사 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_11')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_11">cp</span><br><br>
+
+        <p>12. 리눅스 강제종료 명령어는?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_12')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_12">reboot, shutdown -r now, init 0</span><br><br>
+
+
+        <p>13. 인터넷망과 같은 공중망을 사설망처럼 이용해 회선 비용을 크게 절감할 수 있는 기업통신 서비스는 무엇일까?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_13')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_13">VPN (가상사설망)</span><br><br>
+
+        <p>14. 다음은 무엇을 설명하는가?<br>
+            네트워크 스위치의 어떤 한 포트에서 보이는 모든 네트워크 패킷 혹은 전체 VLAN의 모든 패킷들을 다른 모니터링 포트로 복제하는데 사용된다.</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_14')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_14">포트미러링</span><br><br>
+
+        <p>15. IP주소로 MAC주소를 알아내는 프로토콜은 무엇인가?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_15')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_15">ARP</span><br><br>
+
+        <p>16. 다음설명하는 기술은?<br>
+            IP주소를 사용하는 것의 낭비를 막기위해 모든 호스트에 공인IP주소를 설정하는 대신, 내부적으로 사설IP를 설정하여 사용하고 인터넷에 접속할때만 공인 IP로 변환하는 기술</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_16')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_16">NAT</span><br><br>
+
+        <p>17. TCP/IP 기반 네트워크 상에서 서버나 라우터가 에러나 예상치 못한 사건들을 보고할 목적으로 만들어진 프로토콜로 RFC792에 정의되있는 프로토콜은?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_17')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_17">ICMP</span><br><br>
+
+        <p>18. 다음은 무슨기술인가?
+            동적디스크 볼륨 중 볼륨자체에서 하나의 디스크손상시 다른 하드디스크의 DATA로 손상된 부분을 복구할 수 있는 내결함성을 지원하는 볼륨. 해당 볼륨의 종류는 RAID1과 RAID 0+1이있다</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_18')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_18">미러링</span><br><br>
+
+        <p>19. 네트워크 상의 다른 컴퓨터에 로그인하거나 원격 시스템에서 명령을 실행하고 다른 시스템으로 파일을 복수할수있게하는 응용 프로그램은?</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_19')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_19">SSH</span><br><br>
+
+        <p>20. 다음은 어떤 클래스에 대한 설명인가?<br>
+            class의 IP address는 처음 1개의 bit이 항상 0이다<br>
+            할당가능 network수는 2^7, 127개이다<br>
+            할당가능한 Host 수는 2^24 16,777,216개 이다.</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_20')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_20">A 클래스</span><br><br>
+
+        <p>21. 침입탐지시스템의 탐지기법 중 무엇?<br>
+            이미발견되어있는 공격패턴을 미리입력해두고 해당하는 패턴을 탐지하는 기법. <br>
+            알려진 기법외에는 탐지할수없기떄문에 공격에는 비효율적이다. <br>
+            다른말로 Signature Base나 Knowledge Base로 불린다.</p>
+        <label class="switch">
+            <input type="checkbox" onclick="answer('3_21')">
+            <span class="slider"></span>
+        </label><span class="answer" id="3_21">오용탐지 기법</span><br><br>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta charset="utf-8">
+        <title>네트워크관리사</title>
+        <link rel="stylesheet" href="yerin.css">
+        <script src="yerin.js"></script>
+  	</head>
+  	<body >
+        <div class="header">
+                <div class="progress-container"><div id="progress-bar"></div></div>
+                <button onclick="location.href='index.html'" id="logo">네트워크관리사 내용정리 페이지</button>
+             
+                <a id="mar">.</a>  <!--메뉴 바 오른쪽의 여백 조정용-->
+                <div class="menu" onclick="location.href='2605김예린_3.html'">
+                    <button class="menubtn">실기 연습 문제 </button>
+                </div>
+                <div class="menu" onclick="location.href='2605김예린_2.html'">
+                    <button class="menubtn">실기 내용 요약 </button>
+                </div>
+                <div class="menu" onclick="location.href='2605김예린_1.html'">
+                    <button class="menubtn">필기 내용 요약 </button>
+                </div>
+        </div>
+
+        <div class="contents">
+            <h1>케이블 제작 실습</h1><br>
+            <div style="width: 450px; float: left;">
+                <img src="/images/2_1.png" width="300px" ><br>
+                다이렉트 케이블 순서
+            </div>
+            <div style="width: 300px; float: left;">
+                <img src="/images/2_2.png" width="300px" ><br>
+                크로스 케이블 순서
+            </div>
+            <br><br>
+        </div>
+        <br>
+        <div class="contents">
+            <h1>계층별 프로토콜</h1>
+            - 네트워크 계층 : RARP, ARP, ICMP, IGMP, RIP<br>
+            - 응용 계층 : SMTP, Telnet, FTP, HTTP<br>
+            - 전송 계층 : SCTP, TCP, UDP<br>
+        </div>
+        <div class="contents">
+            <h1>비트로 서브넷 마스크 구하기</h1>
+            <div style="width: 300px; float: left;">
+                <img src="/images/2_3.png" width="300px" ><br>
+            </div>
+            <br><br><br><br><br><br><br><br>
+        </div>
+        <br>
+        <div class="contents">
+            <h1>TCP/IP 4계층 구조</h1>
+            <h3>1계층 : 네트워크 액세스계층</h3>
+            - OSI 7계층의 물리계층과 데이터링크계층에 해당한다<br>
+            - 물리적인주소로 MAC를 사용한다.<br>
+            - LAN, 패킷망, 등에 사용된다.<br>
+
+            <h3>2계층 : 인터넷계층</h3>
+            -  OSI 7계층의 네트워크 계층에 해당한다.<br>
+            - 통신 노드 간의 IP 패킷 전송하는 기능과 라우팅 기능담당<br>
+            - 프로토콜 : IP. ARP, RARP<br>
+
+            <h3>3계층 : 전송계층</h3>
+            - OSI 7계층의 전송계층에 해당한다.<br>
+            - 통신 노드간의 연결을 제어하고,신뢰성있는 데이터전송담당<br>
+            - 프로콜 : TCP,UDP<br>
+
+            <h3>4계층 : 응용계층</h3>
+            - OSI 7계층의 세션/표현/응용 계층에 해당한다.<br>
+            - TCP/UDP/기반의 응용 프로그램을 구현할 떄 사용한다.<br>
+            - 프로토콜 : FTP, HTTP, SSH<br>
+        </div>
+    </body>
+</html>

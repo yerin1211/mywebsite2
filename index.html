@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta charset="utf-8">
+        <title>네트워크관리사</title>
+        <link rel="stylesheet" href="yerin.css">
+        <script src="yerin.js"></script>
+  	</head>
+  	<body >
+        <div class="header">
+                <div class="progress-container"><div id="progress-bar"></div></div>
+                <button onclick="location.href='index.html'" id="logo">네트워크관리사 내용정리 페이지</button>
+             
+                <a id="mar">.</a>  <!--메뉴 바 오른쪽의 여백 조정용-->
+                <div class="menu" onclick="location.href='2605김예린_3.html'">
+                    <button class="menubtn">실기 연습 문제 </button>
+                </div>
+                <div class="menu" onclick="location.href='2605김예린_2.html'">
+                    <button class="menubtn">실기 내용 요약 </button>
+                </div>
+                <div class="menu" onclick="location.href='2605김예린_1.html'">
+                    <button class="menubtn">필기 내용 요약 </button>
+                </div>
+        </div>
+        <br><br><br><Br>
+
+        <div class="indexbox">
+            <button class="indexbutton" onclick="openPage('pil')" id="pilbutton">필기 출제 범위 및 배점</button>
+            <button class="indexbutton" onclick="openPage('sil')" id="silbutton">실기 출제 범위 및 배점</button>
+
+            <div id="pil" class="indexcontent">
+                <h1>네트워크관리사 필기</h1>
+                <p>1과목 TCP/IP 17문제</p>
+                <p>2과목 네트워크일반 10문제</p>
+                <p>3과목 NOS 18문제</p>
+                <p>4과목 네트워크 운용기기 5문제</p>
+                <br>
+                <p>모든 문제의 배점 2점, 총 50문제</p>
+            </div>
+            <div id="sil" class="indexcontent">
+                <h1>네트워크관리사 실기</h1>
+                <p>1. 다이렉트 케이블 제작 (1문제 x 6.5점)</p>
+                <p>2. Windows 2008 server R2 관련 문제 (8문제 x 5.5점 = 44점)</p>
+                <p> + 라우터 명령어 입력문제 (3문제 x 5.5점 = 16.5점)</p>
+                <p>3. 리눅스 명령어 문제 (2문제 x 11점 = 22점)</p>
+                <p>4. 신경향 및 보안문제 (1문제 x 5.5점 = 5.5점)</p>
+                <p>5. TCP/IP 네트워크 장비 관련 문제 (3문제 x 5.5점 = 16.5점)</p>
+            </div>
+
+        </div>
+    </body>
+</html>
